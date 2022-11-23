@@ -1,0 +1,140 @@
+:root {
+    --primary-text-color: #757575;
+    --tittle-text-color: #212121;
+    --accent-color: #2196F3;
+    --bg-white-color: #FFFFFF;
+    --bg-gray-color: #F5F4FA;
+    --bg-dark-color: #2F303A;
+    --white-color: #FFFFFF;
+    --footer-elemets-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    background-color:var(--bg-white-color);
+    color: var(--primary-text-color);
+}
+
+/* Прибираю маркування списків */
+.list {
+    list-style: none;
+}
+
+/* Прибираю підкреслення посилань */
+.link {
+    text-decoration: none;
+}
+
+/* Заголовки секцій */
+.section-title {
+    color: var(--tittle-text-color);
+}
+
+/* HEADER */
+
+/* Logo header */
+.logo-header {
+    color: var(--tittle-text-color);
+}
+.logo-blue {
+    color: var(--accent-color);
+}
+
+/* Site nav */
+.site-nav .link {
+    color: var(--tittle-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color); 
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* Header-contact */
+.header-contact .link {
+    color: var(--primary-text-color);
+}   
+
+.header-contact .link:hover,
+.header-contact .link:focus {
+    color: var(--accent-color);
+}
+
+/* ОСНОВНИЙ КОНТЕНТ index.html */
+
+/* Hero */
+.hero-title {
+    color:var(--white-color);
+}
+.hero {
+    background-color: var(--bg-dark-color);
+}
+
+.hero-btn {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+/* Features */
+.features .title {
+    color: var(--tittle-text-color);
+}
+
+/* Team */
+.team .title {
+    color: var(--tittle-text-color);
+}
+
+.section.team {
+    background-color: var(--bg-gray-color);
+}
+
+/* FOOTER */
+.footer{
+    background-color: var(--bg-dark-color);
+}
+
+/* Logo footer */
+.logo-footer {
+    color: var(--white-color);
+}
+.logo-blue {
+    color: var(--accent-color);
+}
+
+/* Footer-contact */
+.footer-contact .maps {
+    color: var(--white-color)
+}
+
+.footer-contact .contacts {
+    color: var(--footer-elemets-color);
+}
+
+.footer-contact .link:hover,
+.footer-contact .link:focus {
+    color: var(--accent-color);
+}
+
+/* ОСНОВНИЙ КОНТЕНТ portfolio.html */
+.portfolio .title {
+    color: var(--tittle-text-color);
+}
+
+/* Buttons */
+.btn-portfolio {
+    background-color: var(--bg-gray-color);
+    color: var(--tittle-text-color);
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+/* колір межі на сторінці Портфоліо #ECECEC */
+
