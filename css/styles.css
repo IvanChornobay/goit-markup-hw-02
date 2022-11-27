@@ -7,6 +7,7 @@
     --bg-dark-color: #2F303A;
     --white-color: #FFFFFF;
     --footer-elemets-color: rgba(255, 255, 255, 0.6);
+    --logo-black-color: #000000;
 }
 
 body {
@@ -26,14 +27,6 @@ body {
     text-decoration: none;
 }
 
-/* Заголовки секцій */
-.section-title {
-    color: var(--tittle-text-color);
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;   
-}
-
 /* Приховую візуально заголовки секцій */
 .hidden {
     position: absolute;
@@ -46,17 +39,27 @@ body {
     clip: rect(0 0 0 0);
 }
 
-/* HEADER */
-
-/* Logo header */
-.logo-header {
+/* Заголовки секцій */
+.section-title {
     color: var(--tittle-text-color);
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;   
+}
+
+/* Логотип */
+.logo {
+    color: var(--accent-color);
     font-family: Raleway, sans-serif;
     font-size: 26px;
     line-height: 1.19;
 }
-.logo-blue {
-    color: var(--accent-color);
+
+/* HEADER */
+
+/* Logo header */
+.logo-black {
+    color: var(--logo-black-color);
 }
 
 /* Site nav */
@@ -69,12 +72,9 @@ body {
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
-    color: var(--accent-color); 
-}
-
+.site-nav .link:focus,
 .site-nav .link.current {
-    color: var(--accent-color);
+    color: var(--accent-color); 
 }
 
 /* Header-contact */
@@ -134,10 +134,6 @@ body {
 }
 
 /* Team */
-.team {
-    background-color: var(--bg-gray-color);
-}
-
 .team .title {
     color: var(--tittle-text-color);
     font-weight: 500;
@@ -158,11 +154,8 @@ body {
 }
 
 /* Logo footer */
-.logo-footer {
+.logo-white {
     color: var(--white-color);
-    font-family: Raleway, sans-serif;
-    font-size: 26px;
-    line-height: 1.19;
 }
 
 /* Footer-contact */
